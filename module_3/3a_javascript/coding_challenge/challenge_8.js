@@ -3,4 +3,4 @@ const booleanNum = (num) => {
     return num % 10 === 0;
 }
 
-console.log(booleanNum(20)) 
+console.log(booleanNum(30)) 
