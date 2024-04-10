@@ -1,3 +1,4 @@
+//Create a length converter function.
 function word_length(){
     word = 'cocomelon';
     the_length = word.length
