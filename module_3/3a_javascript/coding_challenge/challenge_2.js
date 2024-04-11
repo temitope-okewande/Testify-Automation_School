@@ -1,8 +1,10 @@
 //Create a length converter function.
-function word_length(){
-    word = 'cocomelon';
-    the_length = word.length
-    console.log(the_length)
+function length_converter(inches) {
+    //Convert iches to meters
+    let meter_value= inches * 0.0254;
+    meters = meter_value.toFixed(3)
+    
+    return meters;
 }
 
-word_length()
+console.log(length_converter(3))
