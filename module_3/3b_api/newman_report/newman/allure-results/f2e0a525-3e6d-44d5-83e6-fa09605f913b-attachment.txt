@@ -1,0 +1,3 @@
+// let res = pm.response.json();
+// console.log(res.orderId);
+// pm.collectionVariables.set("order_Id", res.orderId);

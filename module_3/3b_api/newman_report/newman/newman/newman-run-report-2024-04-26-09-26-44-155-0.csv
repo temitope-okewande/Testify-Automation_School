@@ -1,0 +1,10 @@
+iteration,collectionName,requestName,method,url,status,code,responseTime,responseSize,executed,failed,skipped,totalAssertions,executedCount,failedCount,skippedCount
+"1","API Collection Tesify","Get Status","GET","https://simple-books-api.glitch.me/","OK","200","1805","46","Status code is 200",,,"1","1","0","0"
+"1","API Collection Tesify","Register an API Client","POST","https://simple-books-api.glitch.me/api-clients/","Created","201","474","82","Status code is 201",,,"1","1","0","0"
+"1","API Collection Tesify","Get Books","GET","https://simple-books-api.glitch.me/books?get_book_id={{get_book_id}}","OK","200","280","417","Status code is 200, Name returned true",,,"2","2","0","0"
+"1","API Collection Tesify","Get a single book","GET","https://simple-books-api.glitch.me/books/6","OK","200","289","130",,"Status code is 200",,"1","0","1","0"
+"1","API Collection Tesify","Place a book order","POST","https://simple-books-api.glitch.me/orders?bookId=6","Created","201","451","50","Status code is 201",,,"1","1","0","0"
+"1","API Collection Tesify","Get all orders","GET","https://simple-books-api.glitch.me/orders","OK","200","306","559","Status code is 200",,,"1","1","0","0"
+"1","API Collection Tesify","Get an order","GET","https://simple-books-api.glitch.me/orders/gs4OIf5gZz3LOWqfkNTtM","OK","200","286","185","Status code is 200",,,"1","1","0","0"
+"1","API Collection Tesify","Update an order","PATCH","https://simple-books-api.glitch.me/orders/gs4OIf5gZz3LOWqfkNTtM/","No Content","204","380","0","Status code is 204",,,"1","1","0","0"
+"1","API Collection Tesify","Delete an order","DELETE","https://simple-books-api.glitch.me/orders/gs4OIf5gZz3LOWqfkNTtM","No Content","204","323","0","Status code is 204",,,"1","1","0","0"

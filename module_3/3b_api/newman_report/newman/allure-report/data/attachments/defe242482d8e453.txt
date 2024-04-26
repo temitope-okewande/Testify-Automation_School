@@ -1,0 +1,1 @@
+{"id":6,"name":"Viscount Who Loved Me","author":"Julia Quinn","type":"fiction","price":15.6,"current-stock":1021,"available":true}

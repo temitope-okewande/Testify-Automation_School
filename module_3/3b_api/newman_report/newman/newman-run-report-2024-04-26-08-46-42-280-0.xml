@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="API Collection Tesify" tests="9" time="4.243">
+  <testsuite name="Get Status" id="52e45c65-e090-4171-a0b5-12c0486607cb" timestamp="2024-04-26T08:46:37.800Z" tests="1" failures="0" errors="0" time="1.179">
+    <testcase name="Status code is 200" time="1.179" classname="ApiCollectionTesify"/>
+  </testsuite>
+  <testsuite name="Register an API Client" id="e30e738a-56a3-463b-97ce-82ed184ec17f" timestamp="2024-04-26T08:46:37.800Z" tests="1" failures="0" errors="0" time="0.646">
+    <testcase name="Status code is 201" time="0.646" classname="ApiCollectionTesify"/>
+  </testsuite>
+  <testsuite name="Get Books" id="b798666f-5722-4af7-b521-1b272a8462fa" timestamp="2024-04-26T08:46:37.800Z" tests="2" failures="0" errors="0" time="0.263">
+    <testcase name="Status code is 200" time="0.263" classname="ApiCollectionTesify"/>
+    <testcase name="Name returned true" time="0.263" classname="ApiCollectionTesify"/>
+  </testsuite>
+  <testsuite name="Get a single book" id="baa9541a-7599-4bf5-a9c5-ca959440735d" timestamp="2024-04-26T08:46:37.800Z" tests="1" failures="1" errors="0" time="0.247">
+    <testcase name="Status code is 200" time="0.247" classname="ApiCollectionTesify">
+      <failure type="AssertionFailure" message="expected response to have status code 201 but got 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 48872f97-d662-4906-ab6c-d717ea5d4d82.]]>
+        <![CDATA[Collection name: API Collection Tesify.]]>
+        <![CDATA[Request name: Get a single book.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 201 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 201 but got 200
+   at Object.eval sandbox-script.js:1:4).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Place a book order" id="14d174ef-356b-4713-b474-983bd991560e" timestamp="2024-04-26T08:46:37.800Z" tests="1" failures="0" errors="0" time="0.437">
+    <testcase name="Status code is 201" time="0.437" classname="ApiCollectionTesify"/>
+  </testsuite>
+  <testsuite name="Get all orders" id="34fd7887-a97b-45ae-a7b9-36b9cbf4fb60" timestamp="2024-04-26T08:46:37.800Z" tests="1" failures="0" errors="0" time="0.304">
+    <testcase name="Status code is 200" time="0.304" classname="ApiCollectionTesify"/>
+  </testsuite>
+  <testsuite name="Get an order" id="6b754d5a-d2da-4f52-8c6e-c75d9e3f69ea" timestamp="2024-04-26T08:46:37.800Z" tests="1" failures="0" errors="0" time="0.387">
+    <testcase name="Status code is 200" time="0.387" classname="ApiCollectionTesify"/>
+  </testsuite>
+  <testsuite name="Update an order" id="b93ab853-8868-42ec-9f1b-97bd986098ab" timestamp="2024-04-26T08:46:37.800Z" tests="1" failures="0" errors="0" time="0.392">
+    <testcase name="Status code is 204" time="0.392" classname="ApiCollectionTesify"/>
+  </testsuite>
+  <testsuite name="Delete an order" id="6ebafb10-4527-4076-b015-57c23577b854" timestamp="2024-04-26T08:46:37.800Z" tests="1" failures="0" errors="0" time="0.388">
+    <testcase name="Status code is 204" time="0.388" classname="ApiCollectionTesify"/>
+  </testsuite>
+</testsuites>
