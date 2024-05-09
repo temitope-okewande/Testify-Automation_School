@@ -1,0 +1,8 @@
+{
+  "email": "Rory_Schumm83@yahoo.com",
+  "attributes": {
+    "FNAME": "Jena"
+  },
+  "emailBlacklisted": false,
+  "smsBlacklisted": false
+}

@@ -1,0 +1,43 @@
+{
+  "contacts": [
+    {
+      "email": "tierra70@gmail.com",
+      "id": 6,
+      "attributes": {
+        "FNAME": "John",
+        "LNAME": "Smith"
+      },
+      "emailBlacklisted": false,
+      "smsBlacklisted": false,
+      "listIds": [
+        65
+      ],
+      "unlinkListIds": [
+        36
+      ],
+      "smtpBlacklistSender": [
+        "KcV-PaFnJ@eS.qz",
+        "bbrb5LcqfbXwIx@rSlyeERMpQugHPvTXhPZo.zmg"
+      ]
+    },
+    {
+      "email": "topehnics@gmail.com",
+      "id": 1,
+      "attributes": {
+        "FNAME": "Anna Louise"
+      },
+      "emailBlacklisted": false,
+      "smsBlacklisted": true,
+      "listIds": [
+        65
+      ],
+      "unlinkListIds": [
+        36
+      ],
+      "smtpBlacklistSender": [
+        "0f8VdF@RMbQgSGQHKuglhsPAzZSJcrVpq.njc",
+        "UZzlbOKm7qXU@mvJPCUvDwPNk.lhjd"
+      ]
+    }
+  ]
+}

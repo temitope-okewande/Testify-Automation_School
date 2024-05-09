@@ -1,0 +1,10 @@
+{
+  "name": "Topehnics",
+  "attributes": {
+    "domain": "https://example.com",
+    "industry": "Fabric",
+    "owner": "662fb9c4032acc38e772c519"
+  }
+
+
+}

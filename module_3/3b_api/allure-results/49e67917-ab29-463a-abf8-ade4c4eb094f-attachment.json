@@ -1,0 +1,12 @@
+{
+    "Content-Type": "multipart/form-data",
+    "Accept": "application/json",
+    "api-key": "",
+    "User-Agent": "PostmanRuntime/7.37.1",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "3b398500-4dbb-46d5-9dfa-39d2d651a845",
+    "Host": "api.brevo.com",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Content-Length": "521"
+}

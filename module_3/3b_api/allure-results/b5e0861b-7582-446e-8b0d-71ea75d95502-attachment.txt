@@ -1,0 +1,7 @@
+{
+  "name": "Deal: Connect with company",
+  "attributes": {
+    "deal_owner": "662fb9c4032acc38e772c519",
+    "amount": 12
+  }
+}

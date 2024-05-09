@@ -1,0 +1,2330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sendinblue" tests="157" time="36.285">
+  <testsuite name="Sales CRM / Companies / Get all Companies" id="eb02b1d2-20b5-4b34-aa3a-2a2570768eed" timestamp="2024-05-09T23:26:39.532Z" tests="8" failures="8" errors="0" time="0.324">
+    <testcase name="Verify that status code is 200" time="0.324" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Get all Companies.]]>
+        <![CDATA[Test description: Verify that status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:1:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Id format should contain" time="0.324" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading '0')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Get all Companies.]]>
+        <![CDATA[Test description: Id format should contain.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading '0').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading '0')
+   at Object.eval sandbox-script.js:2:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Body contains correct company's name" time="0.324" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading '0')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Get all Companies.]]>
+        <![CDATA[Test description: Body contains correct company's name.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading '0').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading '0')
+   at Object.eval sandbox-script.js:3:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="LinkedContacts array in refs is not empty" time="0.324" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'linkedContacts')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Get all Companies.]]>
+        <![CDATA[Test description: LinkedContacts array in refs is not empty.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'linkedContacts').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'linkedContacts')
+   at Object.eval sandbox-script.js:4:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify that the JSON data contains the items key " time="0.324" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { …(2) } to have property 'items'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Get all Companies.]]>
+        <![CDATA[Test description: Verify that the JSON data contains the items key .]]>
+        <![CDATA[Error message: expected { …(2) } to have property 'items'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { …(2) } to have property 'items'
+   at Object.eval sandbox-script.js:5:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Id and attributes are present in the items key " time="0.324" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading '0')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Get all Companies.]]>
+        <![CDATA[Test description: Id and attributes are present in the items key .]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading '0').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading '0')
+   at Object.eval sandbox-script.js:6:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="All required keys in the attributes objects are present" time="0.324" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading '0')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Get all Companies.]]>
+        <![CDATA[Test description: All required keys in the attributes objects are present.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading '0').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading '0')
+   at Object.eval sandbox-script.js:7:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Date format is correct" time="0.324" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading '0')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Get all Companies.]]>
+        <![CDATA[Test description: Date format is correct.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading '0').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading '0')
+   at Object.eval sandbox-script.js:8:1).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Sales CRM / Companies / Create a company" id="249b97e1-58b0-428d-a692-af4a1eaf9637" timestamp="2024-05-09T23:26:39.532Z" tests="6" failures="4" errors="0" time="0.198">
+    <testcase name="Status code is 200" time="0.198" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Create a company.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:1:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Id format should contain" time="0.198" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to match /^[a-z0-9]{24}$/">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Create a company.]]>
+        <![CDATA[Test description: Id format should contain.]]>
+        <![CDATA[Error message: expected undefined to match /^[a-z0-9]{24}$/.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to match /^[a-z0-9]{24}$/
+   at Object.eval sandbox-script.js:2:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="verify that id value is correct" time="0.198" classname="Sendinblue"/>
+    <testcase name="Response has the id property" time="0.198" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { …(2) } to have property 'id'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Create a company.]]>
+        <![CDATA[Test description: Response has the id property.]]>
+        <![CDATA[Error message: expected { …(2) } to have property 'id'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { …(2) } to have property 'id'
+   at Object.eval sandbox-script.js:4:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body is an object" time="0.198" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to exist">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Create a company.]]>
+        <![CDATA[Test description: Response body is an object.]]>
+        <![CDATA[Error message: expected undefined to exist.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to exist
+   at Object.eval sandbox-script.js:5:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type is application/json" time="0.198" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Companies / Get company attributes" id="de29148f-8781-463b-8dcd-ff654c4a6c3d" timestamp="2024-05-09T23:26:39.532Z" tests="3" failures="1" errors="0" time="0.173">
+    <testcase name="Status code is 200" time="0.173" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Get company attributes.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:1:3).]]>
+      </failure>
+    </testcase>
+    <testcase name="Each object in the array has the correct structure" time="0.173" classname="Sendinblue"/>
+    <testcase name="Each object has the correct data types for its properties" time="0.173" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Companies / Link and Unlink company with contact and deal" id="1b916142-50c1-4b0e-a7bc-6a30e47892b8" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.196"/>
+  <testsuite name="Sales CRM / Companies / Get a company" id="ec0f5333-b1a1-4396-ad2f-ec4690a9a14d" timestamp="2024-05-09T23:26:39.532Z" tests="5" failures="5" errors="1" time="0.199">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read properties of undefined (reading 'name')
+---
+]]></system-err>
+    <testcase name="Response status code is 200" time="0.199" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Get a company.]]>
+        <![CDATA[Test description: Response status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:1:5).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response has the required fields" time="0.199" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { …(2) } to have property 'id'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Get a company.]]>
+        <![CDATA[Test description: Response has the required fields.]]>
+        <![CDATA[Error message: expected { …(2) } to have property 'id'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { …(2) } to have property 'id'
+   at Object.eval sandbox-script.js:2:5).]]>
+      </failure>
+    </testcase>
+    <testcase name="Date format is correct" time="0.199" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'created_at')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Get a company.]]>
+        <![CDATA[Test description: Date format is correct.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'created_at').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'created_at')
+   at Object.eval sandbox-script.js:3:5).]]>
+      </failure>
+    </testcase>
+    <testcase name="Domain is correct" time="0.199" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'domain')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Get a company.]]>
+        <![CDATA[Test description: Domain is correct.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'domain').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'domain')
+   at Object.eval sandbox-script.js:4:5).]]>
+      </failure>
+    </testcase>
+    <testcase name="Id is correct" time="0.199" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to deeply equal null">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Get a company.]]>
+        <![CDATA[Test description: Id is correct.]]>
+        <![CDATA[Error message: expected undefined to deeply equal null.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to deeply equal null
+   at Object.eval sandbox-script.js:5:5).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Sales CRM / Companies / Delete a company" id="94d273f2-a20e-4191-ae74-35bfad5d4201" timestamp="2024-05-09T23:26:39.532Z" tests="2" failures="2" errors="0" time="0.191">
+    <testcase name="Status code is 204" time="0.191" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 204 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Delete a company.]]>
+        <![CDATA[Test description: Status code is 204.]]>
+        <![CDATA[Error message: expected response to have status code 204 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 204 but got 401
+   at Object.eval sandbox-script.js:1:6).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.191" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status reason 'No Content' but got 'Unauthorized'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Delete a company.]]>
+        <![CDATA[Test description: Status code name has string.]]>
+        <![CDATA[Error message: expected response to have status reason 'No Content' but got 'Unauthorized'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'No Content' but got 'Unauthorized'
+   at Object.eval sandbox-script.js:2:6).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Sales CRM / Companies / Update a company" id="11a6d749-f294-4022-b296-750b08a6bec4" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.188"/>
+  <testsuite name="Sales CRM / Companies / Get pipeline stages" id="2a2af310-75bd-4d1d-bf83-84961516ecf9" timestamp="2024-05-09T23:26:39.532Z" tests="6" failures="5" errors="0" time="0.171">
+    <testcase name="Response status code is 200" time="0.171" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Get pipeline stages.]]>
+        <![CDATA[Test description: Response status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:1:8).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response has the required fields - pipeline, pipeline_name, and stages" time="0.171" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { …(2) } to have property 'pipeline'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Get pipeline stages.]]>
+        <![CDATA[Test description: Response has the required fields - pipeline, pipeline_name, and stages.]]>
+        <![CDATA[Error message: expected { …(2) } to have property 'pipeline'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { …(2) } to have property 'pipeline'
+   at Object.eval sandbox-script.js:2:8).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate the stages array" time="0.171" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to be an array">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Get pipeline stages.]]>
+        <![CDATA[Test description: Validate the stages array.]]>
+        <![CDATA[Error message: expected undefined to be an array.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be an array
+   at Object.eval sandbox-script.js:3:8).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response Content-Type is application/json" time="0.171" classname="Sendinblue"/>
+    <testcase name="Id format is correct" time="0.171" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading '0')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Get pipeline stages.]]>
+        <![CDATA[Test description: Id format is correct.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading '0').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading '0')
+   at Object.eval sandbox-script.js:5:8).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has Ok" time="0.171" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status reason 'OK' but got 'Unauthorized'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Companies / Get pipeline stages.]]>
+        <![CDATA[Test description: Status code name has Ok.]]>
+        <![CDATA[Error message: expected response to have status reason 'OK' but got 'Unauthorized'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'OK' but got 'Unauthorized'
+   at Object.eval sandbox-script.js:6:8).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Sales CRM / Deals / Get all deals" id="9ca21776-ebf6-47be-937b-46af15b1cec7" timestamp="2024-05-09T23:26:39.532Z" tests="4" failures="4" errors="1" time="0.409">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read properties of undefined (reading '0')
+---
+]]></system-err>
+    <testcase name="Items array is empty" time="0.409" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to be an array">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Deals / Get all deals.]]>
+        <![CDATA[Test description: Items array is empty.]]>
+        <![CDATA[Error message: expected undefined to be an array.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be an array
+   at Object.eval sandbox-script.js:1:9).]]>
+      </failure>
+    </testcase>
+    <testcase name="Pager object has correct values" time="0.409" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'current')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Deals / Get all deals.]]>
+        <![CDATA[Test description: Pager object has correct values.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'current').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'current')
+   at Object.eval sandbox-script.js:2:9).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response status code is 200" time="0.409" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Deals / Get all deals.]]>
+        <![CDATA[Test description: Response status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:3:9).]]>
+      </failure>
+    </testcase>
+    <testcase name="Validate the structure of the response body" time="0.409" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to exist">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Deals / Get all deals.]]>
+        <![CDATA[Test description: Validate the structure of the response body.]]>
+        <![CDATA[Error message: expected undefined to exist.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to exist
+   at Object.eval sandbox-script.js:4:9).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Sales CRM / Deals / Create a deal" id="99e06323-4db2-4d83-9735-b743995d819a" timestamp="2024-05-09T23:26:39.532Z" tests="6" failures="3" errors="0" time="0.175">
+    <testcase name="Status code is 200" time="0.175" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Deals / Create a deal.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:1:10).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body is an object" time="0.175" classname="Sendinblue"/>
+    <testcase name="Response has the id property" time="0.175" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { …(2) } to have property 'id'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Deals / Create a deal.]]>
+        <![CDATA[Test description: Response has the id property.]]>
+        <![CDATA[Error message: expected { …(2) } to have property 'id'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { …(2) } to have property 'id'
+   at Object.eval sandbox-script.js:3:10).]]>
+      </failure>
+    </testcase>
+    <testcase name="Id format should contain 24 alphanumeric characters" time="0.175" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to match /^[a-z0-9]{24}$/">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Deals / Create a deal.]]>
+        <![CDATA[Test description: Id format should contain 24 alphanumeric characters.]]>
+        <![CDATA[Error message: expected undefined to match /^[a-z0-9]{24}$/.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to match /^[a-z0-9]{24}$/
+   at Object.eval sandbox-script.js:4:10).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body contains the deal_owner property" time="0.175" classname="Sendinblue"/>
+    <testcase name="Status code is 400" time="0.175" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Deals / Create a deal Copy" id="f02b87da-9b7b-49c3-ba81-7e54f5bd8055" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.685"/>
+  <testsuite name="Sales CRM / Deals / Create a deal Copy" id="f13b88c9-863d-4361-97bc-b296aa25a1b6" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.514"/>
+  <testsuite name="Sales CRM / Deals / Link and Unlink a deal with contacts and companies" id="9cf7f097-56b1-4611-8192-541cfe7b2cd3" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.168"/>
+  <testsuite name="Sales CRM / Deals / Get deal attributes" id="c9ac7cec-753e-4d17-8136-02183e3d3bee" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="1" time="0.165">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: res.filter is not a function
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="Sales CRM / Deals / Get a deal" id="8669eb12-2146-4dd3-80e6-c0ebb1e108a2" timestamp="2024-05-09T23:26:39.532Z" tests="5" failures="5" errors="0" time="0.167">
+    <testcase name="Response status code is 200" time="0.167" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Deals / Get a deal.]]>
+        <![CDATA[Test description: Response status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:1:15).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response has the required fields" time="0.167" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { …(2) } to have property 'id'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Deals / Get a deal.]]>
+        <![CDATA[Test description: Response has the required fields.]]>
+        <![CDATA[Error message: expected { …(2) } to have property 'id'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { …(2) } to have property 'id'
+   at Object.eval sandbox-script.js:2:15).]]>
+      </failure>
+    </testcase>
+    <testcase name="Date format is correct" time="0.167" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'created_at')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Deals / Get a deal.]]>
+        <![CDATA[Test description: Date format is correct.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'created_at').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'created_at')
+   at Object.eval sandbox-script.js:3:15).]]>
+      </failure>
+    </testcase>
+    <testcase name="Id is correct" time="0.167" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to deeply equal ''">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Deals / Get a deal.]]>
+        <![CDATA[Test description: Id is correct.]]>
+        <![CDATA[Error message: expected undefined to deeply equal ''.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to deeply equal ''
+   at Object.eval sandbox-script.js:4:15).]]>
+      </failure>
+    </testcase>
+    <testcase name="Deal Name is correct" time="0.167" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'deal_name')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Deals / Get a deal.]]>
+        <![CDATA[Test description: Deal Name is correct.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'deal_name').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'deal_name')
+   at Object.eval sandbox-script.js:5:15).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Sales CRM / Deals / Delete a deal" id="41ebd539-7129-45ba-974c-4026bc201a85" timestamp="2024-05-09T23:26:39.532Z" tests="6" failures="5" errors="0" time="0.463">
+    <testcase name="Response status code is 204" time="0.463" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 204 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Deals / Delete a deal.]]>
+        <![CDATA[Test description: Response status code is 204.]]>
+        <![CDATA[Error message: expected response to have status code 204 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 204 but got 401
+   at Object.eval sandbox-script.js:1:16).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is within an acceptable range" time="0.463" classname="Sendinblue"/>
+    <testcase name="Validate the response schema for successful deletion" time="0.463" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to exist">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Deals / Delete a deal.]]>
+        <![CDATA[Test description: Validate the response schema for successful deletion.]]>
+        <![CDATA[Error message: expected undefined to exist.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to exist
+   at Object.eval sandbox-script.js:3:16).]]>
+      </failure>
+    </testcase>
+    <testcase name="Id is correct" time="0.463" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to deeply equal ''">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Deals / Delete a deal.]]>
+        <![CDATA[Test description: Id is correct.]]>
+        <![CDATA[Error message: expected undefined to deeply equal ''.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to deeply equal ''
+   at Object.eval sandbox-script.js:4:16).]]>
+      </failure>
+    </testcase>
+    <testcase name="Error message  is correct" time="0.463" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected 'authentication not found in headers' to deeply equal 'Document not found'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Deals / Delete a deal.]]>
+        <![CDATA[Test description: Error message  is correct.]]>
+        <![CDATA[Error message: expected 'authentication not found in headers' to deeply equal 'Document not found'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'authentication not found in headers' to deeply equal 'Document not found'
+   at Object.eval sandbox-script.js:5:16).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code 404  is correct" time="0.463" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 404 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Deals / Delete a deal.]]>
+        <![CDATA[Test description: Status code 404  is correct.]]>
+        <![CDATA[Error message: expected response to have status code 404 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 404 but got 401
+   at Object.eval sandbox-script.js:6:16).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Sales CRM / Deals / Update a deal" id="379e371d-95d8-409b-bdbe-ef18f01be347" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.492"/>
+  <testsuite name="Sales CRM / Tasks / Get all tasks" id="421ebaaa-f32b-41bc-9f2d-03e9fde44626" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.186"/>
+  <testsuite name="Sales CRM / Tasks / Create a task" id="7226a095-4396-4c86-8f5c-d051ca5bdddf" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.165"/>
+  <testsuite name="Sales CRM / Tasks / Get all task types" id="0270d4ac-6b81-48a3-96e1-175a4829dc5f" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.177"/>
+  <testsuite name="Sales CRM / Tasks / Get a task" id="3a022a4c-9904-4518-84ae-c48b2a9534ac" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.167"/>
+  <testsuite name="Sales CRM / Tasks / Delete a task" id="9bba6b15-1cf0-45fb-826b-fd7eee9589c7" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.468"/>
+  <testsuite name="Sales CRM / Tasks / Update a task" id="ab151e9b-7d95-4ea2-a2b3-835c46606628" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.711"/>
+  <testsuite name="Sales CRM / Notes / Get all notes" id="30706858-6269-4b76-bd8d-6018dd6b32e9" timestamp="2024-05-09T23:26:39.532Z" tests="9" failures="9" errors="0" time="0.330">
+    <testcase name="Verify presence of specific keys" time="0.330" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot convert undefined or null to object">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Notes / Get all notes.]]>
+        <![CDATA[Test description: Verify presence of specific keys.]]>
+        <![CDATA[Error message: Cannot convert undefined or null to object.]]>
+        <![CDATA[Stacktrace: TypeError: Cannot convert undefined or null to object
+   at Object.eval sandbox-script.js:1:24).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify format of author object" time="0.330" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'author')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Notes / Get all notes.]]>
+        <![CDATA[Test description: Verify format of author object.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'author').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'author')
+   at Object.eval sandbox-script.js:2:24).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify format of IDs" time="0.330" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'id')">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Notes / Get all notes.]]>
+        <![CDATA[Test description: Verify format of IDs.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'id').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'id')
+   at Object.eval sandbox-script.js:3:24).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify format of createdAt and updatedAt fields" time="0.330" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'createdAt')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Notes / Get all notes.]]>
+        <![CDATA[Test description: Verify format of createdAt and updatedAt fields.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'createdAt').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'createdAt')
+   at Object.eval sandbox-script.js:4:24).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify contactIds and companyIds are null" time="0.330" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'contactIds')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Notes / Get all notes.]]>
+        <![CDATA[Test description: Verify contactIds and companyIds are null.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'contactIds').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'contactIds')
+   at Object.eval sandbox-script.js:5:24).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify length of text" time="0.330" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'text')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Notes / Get all notes.]]>
+        <![CDATA[Test description: Verify length of text.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'text').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'text')
+   at Object.eval sandbox-script.js:6:24).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response status code is 200" time="0.330" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Notes / Get all notes.]]>
+        <![CDATA[Test description: Response status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:7:24).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 200ms" time="0.330" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected 330 to be below 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Notes / Get all notes.]]>
+        <![CDATA[Test description: Response time is less than 200ms.]]>
+        <![CDATA[Error message: expected 330 to be below 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 330 to be below 200
+   at Object.eval sandbox-script.js:8:24).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Sales CRM / Notes / Create a note" id="6b35ac2e-5849-4472-b18d-c35b09b6ca3f" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.174"/>
+  <testsuite name="Sales CRM / Notes / Get a note" id="791824f9-9cfd-4f67-b88a-62c7ad32166d" timestamp="2024-05-09T23:26:39.532Z" tests="6" failures="6" errors="0" time="0.183">
+    <testcase name="Verify presence of specific keys" time="0.183" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { …(2) } to have keys 'id', 'text', 'contactIds', 'companyIds', 'dealIds', 'authorId', 'author', 'createdAt', and 'updatedAt'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Notes / Get a note.]]>
+        <![CDATA[Test description: Verify presence of specific keys.]]>
+        <![CDATA[Error message: expected { …(2) } to have keys 'id', 'text', 'contactIds', 'companyIds', 'dealIds', 'authorId', 'author', 'createdAt', and 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { …(2) } to have keys 'id', 'text', 'contactIds', 'companyIds', 'dealIds', 'authorId', 'author', 'createdAt', and 'updatedAt'
+   at Object.eval sandbox-script.js:1:26).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify format of author object" time="0.183" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot convert undefined or null to object">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Notes / Get a note.]]>
+        <![CDATA[Test description: Verify format of author object.]]>
+        <![CDATA[Error message: Cannot convert undefined or null to object.]]>
+        <![CDATA[Stacktrace: TypeError: Cannot convert undefined or null to object
+   at Object.eval sandbox-script.js:2:26).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify format of IDs" time="0.183" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to be a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Notes / Get a note.]]>
+        <![CDATA[Test description: Verify format of IDs.]]>
+        <![CDATA[Error message: expected undefined to be a string.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a string
+   at Object.eval sandbox-script.js:3:26).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify format of createdAt and updatedAt fields" time="0.183" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to match /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Notes / Get a note.]]>
+        <![CDATA[Test description: Verify format of createdAt and updatedAt fields.]]>
+        <![CDATA[Error message: expected undefined to match /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to match /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/
+   at Object.eval sandbox-script.js:4:26).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify contactIds and companyIds are null" time="0.183" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to be null">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Notes / Get a note.]]>
+        <![CDATA[Test description: Verify contactIds and companyIds are null.]]>
+        <![CDATA[Error message: expected undefined to be null.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be null
+   at Object.eval sandbox-script.js:5:26).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify length of text" time="0.183" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'length')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Sales CRM / Notes / Get a note.]]>
+        <![CDATA[Test description: Verify length of text.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'length').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'length')
+   at Object.eval sandbox-script.js:6:26).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Sales CRM / Notes / Update a note" id="16b7f988-e949-4138-a1d6-13fa8f96aba4" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.175"/>
+  <testsuite name="Sales CRM / Notes / Delete a note" id="4be7bccb-6cd9-4339-bce1-41462b08815f" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.503"/>
+  <testsuite name="Sales CRM / Files / Get all files" id="ae7c728b-e308-4149-aa83-51e692cd089b" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.173"/>
+  <testsuite name="Sales CRM / Files / Upload a file" id="9f965f0b-3074-46bf-9133-af8c3555a507" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.190"/>
+  <testsuite name="Sales CRM / Files / Download a file" id="d68d7591-b0e4-4229-8bee-9c0867a82620" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.172"/>
+  <testsuite name="Sales CRM / Files / Delete a file" id="0466c143-2947-4881-a466-03700306054d" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.169"/>
+  <testsuite name="Sales CRM / Files / Get file details" id="25e07167-1b69-4bc7-b7aa-00aab05b9279" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.220"/>
+  <testsuite name="Marketing / Email Campaigns / Get an email campaign report" id="db9dad89-c725-4ae8-84e8-c83524d86ff6" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.177"/>
+  <testsuite name="Marketing / Email Campaigns / Update an email campaign" id="8afc24fa-ed6c-4f5f-b4d4-baa93964715e" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.204"/>
+  <testsuite name="Marketing / Email Campaigns / Delete an email campaign" id="7a227ec1-fea7-4e03-8c8a-be54360d1303" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.161"/>
+  <testsuite name="Marketing / Email Campaigns / Send an email campaign immediately, based on campaignId" id="98564750-d883-4b2a-b7e7-10dc666a807f" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.198"/>
+  <testsuite name="Marketing / Email Campaigns / Send an email campaign to your test list" id="2a640083-de2d-4901-9f5d-a4fb56db386a" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.172"/>
+  <testsuite name="Marketing / Email Campaigns / Update an email campaign status" id="efcbf9bc-1bbe-4e41-9eb6-416085420628" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.188"/>
+  <testsuite name="Marketing / Email Campaigns / Send the report of a campaign" id="533df981-08f7-4884-a882-ba1a80f9da7f" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.182"/>
+  <testsuite name="Marketing / Email Campaigns / Get an A/B test email campaign results" id="671ebfce-8972-4930-94d4-4949dcfd41c3" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.169"/>
+  <testsuite name="Marketing / Email Campaigns / Get a shared template url" id="5a17ec26-8840-469b-b6ac-9e667134d2b7" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.171"/>
+  <testsuite name="Marketing / Email Campaigns / Export the recipients of an email campaign" id="21a7bc82-8b30-48b4-97c7-9f919ae735af" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.186"/>
+  <testsuite name="Marketing / Email Campaigns / Return all your created email campaigns" id="42fa8093-ef21-40c3-b1d4-5662c8568c27" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.203"/>
+  <testsuite name="Marketing / Email Campaigns / Create an email campaign" id="89d36dc6-2183-47fb-84a4-f9deaf469265" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.174"/>
+  <testsuite name="Marketing / Email Campaigns / Upload an image to your account's image gallery" id="79b588b7-9406-4f7b-b8a3-e17cd188f7db" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.170"/>
+  <testsuite name="Marketing / SMS Campaigns / Returns the information for all your created SMS campaigns" id="41301bdf-9cd1-4c77-aa1a-7dbe898ffbca" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.171"/>
+  <testsuite name="Marketing / SMS Campaigns / Creates an SMS campaign" id="7484e58c-901a-4a74-80dd-975107b9aaa0" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.180"/>
+  <testsuite name="Marketing / SMS Campaigns / Get an SMS campaign" id="f7996fd8-acda-44f7-88a3-673a7fb5b555" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.159"/>
+  <testsuite name="Marketing / SMS Campaigns / Update an SMS campaign" id="4f691039-e226-419b-9756-e2c6b676a216" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.160"/>
+  <testsuite name="Marketing / SMS Campaigns / Delete an SMS campaign" id="35d94af4-72e7-4543-bf23-0526eec07f9e" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.212"/>
+  <testsuite name="Marketing / SMS Campaigns / Send your SMS campaign immediately" id="37713df8-027a-4c23-9018-5a154de59b2f" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.189"/>
+  <testsuite name="Marketing / SMS Campaigns / Update a campaign's status" id="bae1a29b-59fe-4bba-a3d8-93988c0c673e" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.168"/>
+  <testsuite name="Marketing / SMS Campaigns / Send a test SMS campaign" id="2a1edda8-cc84-4d7e-ae52-04f14a91e843" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.180"/>
+  <testsuite name="Marketing / SMS Campaigns / Export an SMS campaign's recipients" id="7d8fc159-80dd-46fe-b4c0-490200e65249" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.179"/>
+  <testsuite name="Marketing / SMS Campaigns / Send an SMS campaign's report" id="83383aa4-18b7-480f-a862-d6d76fdf1370" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.191"/>
+  <testsuite name="Conversations / Messages / Send a message as an agent" id="e67e8395-a857-4ba2-ae17-0652464744eb" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.167"/>
+  <testsuite name="Conversations / Messages / Get a message" id="a6105119-14f7-484c-841b-007a7df6b941" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.166"/>
+  <testsuite name="Conversations / Messages / Update a message sent by an agent" id="29171b45-a609-41c0-8a1d-3c164ab564bc" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.170"/>
+  <testsuite name="Conversations / Messages / Delete a message sent by an agent" id="fcd38a45-3a39-43f1-a065-82bb06303d53" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.184"/>
+  <testsuite name="Conversations / Status / Sets agent’s status to online for 2-3 minutes" id="f7baf19e-ecd9-4784-b69e-6d3ee827b6a7" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.165"/>
+  <testsuite name="Conversations / Pushed messages / Send an automated message to a visitor" id="3c150b30-24fe-4423-a862-bbcc42caa6d0" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.390"/>
+  <testsuite name="Conversations / Pushed messages / Get an automated message" id="f34451b4-d3f3-441f-95c5-906af83877b8" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.173"/>
+  <testsuite name="Conversations / Pushed messages / Update an automated message" id="b4bef39c-8e74-4b25-84b0-4551324f6d31" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.175"/>
+  <testsuite name="Conversations / Pushed messages / Delete an automated message" id="9dee5f9b-3be7-44cd-a382-4f3f812c84b5" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.175"/>
+  <testsuite name="Contact management / Contacts / Get all the contacts" id="f973b8ac-a0fd-49c3-8103-de84874016da" timestamp="2024-05-09T23:26:39.532Z" tests="4" failures="4" errors="1" time="0.179">
+    <system-err><![CDATA[Iteration: 0
+
+---
+testScriptError: Cannot read properties of undefined (reading 'length')
+---
+]]></system-err>
+    <testcase name="Response contains an array of contacts" time="0.179" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to be an array">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Get all the contacts.]]>
+        <![CDATA[Test description: Response contains an array of contacts.]]>
+        <![CDATA[Error message: expected undefined to be an array.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be an array
+   at Object.eval sandbox-script.js:1:66).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify format of email addresses" time="0.179" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'forEach')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Get all the contacts.]]>
+        <![CDATA[Test description: Verify format of email addresses.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'forEach').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'forEach')
+   at Object.eval sandbox-script.js:2:66).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify presence of specific attributes for the first contact" time="0.179" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading '0')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Get all the contacts.]]>
+        <![CDATA[Test description: Verify presence of specific attributes for the first contact.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading '0').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading '0')
+   at Object.eval sandbox-script.js:3:66).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response status code is 200" time="0.179" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Get all the contacts.]]>
+        <![CDATA[Test description: Response status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:4:66).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Create a contact" id="28cdb442-6069-478e-a3ea-6e4ee3424a4d" timestamp="2024-05-09T23:26:39.532Z" tests="5" failures="4" errors="0" time="0.176">
+    <testcase name="Response status code is 201" time="0.176" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected 401 to equal 201">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Create a contact.]]>
+        <![CDATA[Test description: Response status code is 201.]]>
+        <![CDATA[Error message: expected 401 to equal 201.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 401 to equal 201
+   at Object.eval sandbox-script.js:1:67).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response has the required field - id" time="0.176" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to exist">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Create a contact.]]>
+        <![CDATA[Test description: Response has the required field - id.]]>
+        <![CDATA[Error message: expected undefined to exist.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to exist
+   at Object.eval sandbox-script.js:2:67).]]>
+      </failure>
+    </testcase>
+    <testcase name="Id is a non-negative integer" time="0.176" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to be a number">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Create a contact.]]>
+        <![CDATA[Test description: Id is a non-negative integer.]]>
+        <![CDATA[Error message: expected undefined to be a number.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number
+   at Object.eval sandbox-script.js:3:67).]]>
+      </failure>
+    </testcase>
+    <testcase name="Stored contact_id matches the response id" time="0.176" classname="Sendinblue"/>
+    <testcase name=" id datatype is a number" time="0.176" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to be a number">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Create a contact.]]>
+        <![CDATA[Test description:  id datatype is a number.]]>
+        <![CDATA[Error message: expected undefined to be a number.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number
+   at Object.eval sandbox-script.js:5:67).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Create Contact via DOI (Double-Opt-In) Flow" id="83db0319-1285-4964-86a8-65403da2f44d" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.191"/>
+  <testsuite name="Contact management / Contacts / Update multiple contacts" id="fc191e8d-1e06-4921-b083-279118a0bfc5" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.276"/>
+  <testsuite name="Contact management / Contacts / Export contacts" id="cfece18c-73d6-4940-a358-e2dcc9f72a90" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.170"/>
+  <testsuite name="Contact management / Contacts / Import contacts" id="1dbc1913-a7c1-420f-88bf-fb5416365a39" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.174"/>
+  <testsuite name="Contact management / Contacts / Get a contact's details" id="ae88d083-e1ed-4334-a4f7-921e2f0cfcef" timestamp="2024-05-09T23:26:39.532Z" tests="10" failures="9" errors="0" time="2.687">
+    <testcase name="Response content type is application/json" time="2.687" classname="Sendinblue"/>
+    <testcase name="Response status code is 200" time="2.687" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Get a contact's details.]]>
+        <![CDATA[Test description: Response status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:2:72).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify format of email address" time="2.687" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to match /^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$/">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Get a contact's details.]]>
+        <![CDATA[Test description: Verify format of email address.]]>
+        <![CDATA[Error message: expected undefined to match /^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$/.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to match /^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$/
+   at Object.eval sandbox-script.js:3:72).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify presence of specific keys" time="2.687" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { …(2) } to have keys 'email', 'id', 'emailBlacklisted', 'smsBlacklisted', 'createdAt', 'modifiedAt', 'attributes', 'listIds', and 'statistics'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Get a contact's details.]]>
+        <![CDATA[Test description: Verify presence of specific keys.]]>
+        <![CDATA[Error message: expected { …(2) } to have keys 'email', 'id', 'emailBlacklisted', 'smsBlacklisted', 'createdAt', 'modifiedAt', 'attributes', 'listIds', and 'statistics'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { …(2) } to have keys 'email', 'id', 'emailBlacklisted', 'smsBlacklisted', 'createdAt', 'modifiedAt', 'attributes', 'listIds', and 'statistics'
+   at Object.eval sandbox-script.js:4:72).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify type of ID" time="2.687" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to be a number">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Get a contact's details.]]>
+        <![CDATA[Test description: Verify type of ID.]]>
+        <![CDATA[Error message: expected undefined to be a number.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number
+   at Object.eval sandbox-script.js:5:72).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify format of createdAt and modifiedAt fields" time="2.687" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to match /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}\+\d{2}:\d{2}$/">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Get a contact's details.]]>
+        <![CDATA[Test description: Verify format of createdAt and modifiedAt fields.]]>
+        <![CDATA[Error message: expected undefined to match /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}\+\d{2}:\d{2}$/.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to match /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}\+\d{2}:\d{2}$/
+   at Object.eval sandbox-script.js:6:72).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify attributes and listIds are empty arrays" time="2.687" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to deeply equal {}">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Get a contact's details.]]>
+        <![CDATA[Test description: Verify attributes and listIds are empty arrays.]]>
+        <![CDATA[Error message: expected undefined to deeply equal {}.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to deeply equal {}
+   at Object.eval sandbox-script.js:7:72).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify statistics object is empty" time="2.687" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to deeply equal {}">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Get a contact's details.]]>
+        <![CDATA[Test description: Verify statistics object is empty.]]>
+        <![CDATA[Error message: expected undefined to deeply equal {}.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to deeply equal {}
+   at Object.eval sandbox-script.js:8:72).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify error message is correct" time="2.687" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected 'authentication not found in headers' to deeply equal 'Invalid email address, ID OR phone nu…'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Get a contact's details.]]>
+        <![CDATA[Test description: Verify error message is correct.]]>
+        <![CDATA[Error message: expected 'authentication not found in headers' to deeply equal 'Invalid email address, ID OR phone nu…'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'authentication not found in headers' to deeply equal 'Invalid email address, ID OR phone nu…'
+   at Object.eval sandbox-script.js:9:72).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 400" time="2.687" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 400 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Get a contact's details.]]>
+        <![CDATA[Test description: Status code is 400.]]>
+        <![CDATA[Error message: expected response to have status code 400 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 400 but got 401
+   at Object.eval sandbox-script.js:10:72).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Delete a contact" id="e5f7df41-36b2-4db8-bd3c-05b0fca453d2" timestamp="2024-05-09T23:26:39.532Z" tests="3" failures="3" errors="0" time="0.170">
+    <testcase name="Status code is 204" time="0.170" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 204 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Delete a contact.]]>
+        <![CDATA[Test description: Status code is 204.]]>
+        <![CDATA[Error message: expected response to have status code 204 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 204 but got 401
+   at Object.eval sandbox-script.js:1:73).]]>
+      </failure>
+    </testcase>
+    <testcase name="Descriptive error message" time="0.170" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected '{&quot;message&quot;:&quot;authentication not found …' to include 'Contact does not exist'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Delete a contact.]]>
+        <![CDATA[Test description: Descriptive error message.]]>
+        <![CDATA[Error message: expected '{"message":"authentication not found …' to include 'Contact does not exist'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '{"message":"authentication not found …' to include 'Contact does not exist'
+   at Object.eval sandbox-script.js:2:73).]]>
+      </failure>
+    </testcase>
+    <testcase name="Empty response body" time="0.170" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected '{&quot;message&quot;:&quot;authentication not found …' to be empty">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Contacts / Delete a contact.]]>
+        <![CDATA[Test description: Empty response body.]]>
+        <![CDATA[Error message: expected '{"message":"authentication not found …' to be empty.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '{"message":"authentication not found …' to be empty
+   at Object.eval sandbox-script.js:3:73).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Update a contact" id="0517a647-2365-437f-a9cd-5e18b1771b69" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.665"/>
+  <testsuite name="Contact management / Contacts / Get email campaigns' statistics for a contact" id="4deb67a9-18ef-4b72-bdc0-5cfe7d2aa7fd" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.185"/>
+  <testsuite name="Contact management / Folders / Get all folders" id="e674bc7d-33bb-4ab8-ac02-e67d550a2c3d" timestamp="2024-05-09T23:26:39.532Z" tests="3" failures="3" errors="0" time="0.174">
+    <testcase name="Response status code is 200" time="0.174" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Get all folders.]]>
+        <![CDATA[Test description: Response status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:1:76).]]>
+      </failure>
+    </testcase>
+    <testcase name="Folders array is present and has the expected number of elements" time="0.174" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'length')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Get all folders.]]>
+        <![CDATA[Test description: Folders array is present and has the expected number of elements.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'length').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'length')
+   at Object.eval sandbox-script.js:2:76).]]>
+      </failure>
+    </testcase>
+    <testcase name="Each folder should have the correct structure" time="0.174" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'forEach')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Get all folders.]]>
+        <![CDATA[Test description: Each folder should have the correct structure.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'forEach').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'forEach')
+   at Object.eval sandbox-script.js:3:76).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Contact management / Folders / Returns a folder's details" id="885f90b9-f1a0-4e06-ab83-bc753a700c5b" timestamp="2024-05-09T23:26:39.532Z" tests="5" failures="5" errors="0" time="0.185">
+    <testcase name="Name is correct" time="0.185" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to equal ''">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Returns a folder's details.]]>
+        <![CDATA[Test description: Name is correct.]]>
+        <![CDATA[Error message: expected undefined to equal ''.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to equal ''
+   at Object.eval sandbox-script.js:1:77).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response status code is 200" time="0.185" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Returns a folder's details.]]>
+        <![CDATA[Test description: Response status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:2:77).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response has the required fields" time="0.185" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to exist">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Returns a folder's details.]]>
+        <![CDATA[Test description: Response has the required fields.]]>
+        <![CDATA[Error message: expected undefined to exist.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to exist
+   at Object.eval sandbox-script.js:3:77).]]>
+      </failure>
+    </testcase>
+    <testcase name="Id is a non-negative integer" time="0.185" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to exist">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Returns a folder's details.]]>
+        <![CDATA[Test description: Id is a non-negative integer.]]>
+        <![CDATA[Error message: expected undefined to exist.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to exist
+   at Object.eval sandbox-script.js:4:77).]]>
+      </failure>
+    </testcase>
+    <testcase name="Name is a non-empty string" time="0.185" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to be a string">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Returns a folder's details.]]>
+        <![CDATA[Test description: Name is a non-empty string.]]>
+        <![CDATA[Error message: expected undefined to be a string.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a string
+   at Object.eval sandbox-script.js:5:77).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Contact management / Folders / Update a folder" id="c634f268-2489-4dad-a6e5-da9014ad43c9" timestamp="2024-05-09T23:26:39.532Z" tests="3" failures="3" errors="0" time="0.192">
+    <testcase name="Response status code is 204" time="0.192" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 204 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Update a folder.]]>
+        <![CDATA[Test description: Response status code is 204.]]>
+        <![CDATA[Error message: expected response to have status code 204 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 204 but got 401
+   at Object.eval sandbox-script.js:1:78).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body is null" time="0.192" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected '{&quot;message&quot;:&quot;authentication not found …' to be null">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Update a folder.]]>
+        <![CDATA[Test description: Response body is null.]]>
+        <![CDATA[Error message: expected '{"message":"authentication not found …' to be null.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '{"message":"authentication not found …' to be null
+   at Object.eval sandbox-script.js:2:78).]]>
+      </failure>
+    </testcase>
+    <testcase name="Error message is descriptive when the namekey in the request body is empty" time="0.192" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected 'authentication not found in headers' to deeply equal 'Folder name is missing'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Update a folder.]]>
+        <![CDATA[Test description: Error message is descriptive when the namekey in the request body is empty.]]>
+        <![CDATA[Error message: expected 'authentication not found in headers' to deeply equal 'Folder name is missing'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'authentication not found in headers' to deeply equal 'Folder name is missing'
+   at Object.eval sandbox-script.js:3:78).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Contact management / Folders / Delete a folder (and all its lists)" id="078f5b0d-038b-4733-9346-a8e797a8ecee" timestamp="2024-05-09T23:26:39.532Z" tests="7" failures="7" errors="0" time="0.184">
+    <testcase name="Status code is 204" time="0.184" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 204 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Delete a folder (and all its lists).]]>
+        <![CDATA[Test description: Status code is 204.]]>
+        <![CDATA[Error message: expected response to have status code 204 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 204 but got 401
+   at Object.eval sandbox-script.js:1:79).]]>
+      </failure>
+    </testcase>
+    <testcase name="Body matches string" time="0.184" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { …(2) } to be empty">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Delete a folder (and all its lists).]]>
+        <![CDATA[Test description: Body matches string.]]>
+        <![CDATA[Error message: expected { …(2) } to be empty.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { …(2) } to be empty
+   at Object.eval sandbox-script.js:2:79).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.184" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status reason 'OK' but got 'Unauthorized'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Delete a folder (and all its lists).]]>
+        <![CDATA[Test description: Status code name has string.]]>
+        <![CDATA[Error message: expected response to have status reason 'OK' but got 'Unauthorized'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'OK' but got 'Unauthorized'
+   at Object.eval sandbox-script.js:4:79).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response code  KEY is correct" time="0.184" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected 'unauthorized' to equal 'document_not_found'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Delete a folder (and all its lists).]]>
+        <![CDATA[Test description: Response code  KEY is correct.]]>
+        <![CDATA[Error message: expected 'unauthorized' to equal 'document_not_found'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'unauthorized' to equal 'document_not_found'
+   at Object.eval sandbox-script.js:5:79).]]>
+      </failure>
+    </testcase>
+    <testcase name="response code is 400 when the id is incorrect" time="0.184" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 404 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Delete a folder (and all its lists).]]>
+        <![CDATA[Test description: response code is 400 when the id is incorrect.]]>
+        <![CDATA[Error message: expected response to have status code 404 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 404 but got 401
+   at Object.eval sandbox-script.js:6:79).]]>
+      </failure>
+    </testcase>
+    <testcase name="response code name is NOT FOUND when the id is incorrect" time="0.184" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status reason 'Not Found' but got 'Unauthorized'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Delete a folder (and all its lists).]]>
+        <![CDATA[Test description: response code name is NOT FOUND when the id is incorrect.]]>
+        <![CDATA[Error message: expected response to have status reason 'Not Found' but got 'Unauthorized'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'Not Found' but got 'Unauthorized'
+   at Object.eval sandbox-script.js:7:79).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Contact management / Folders / Get lists in a folder" id="aeea6cad-e4b8-404a-8d3a-9c9d7309e76f" timestamp="2024-05-09T23:26:39.532Z" tests="7" failures="7" errors="0" time="0.209">
+    <testcase name="Status code is 200" time="0.209" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Get lists in a folder.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:1:80).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.209" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status reason 'OK' but got 'Unauthorized'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Get lists in a folder.]]>
+        <![CDATA[Test description: Status code name has string.]]>
+        <![CDATA[Error message: expected response to have status reason 'OK' but got 'Unauthorized'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'OK' but got 'Unauthorized'
+   at Object.eval sandbox-script.js:2:80).]]>
+      </failure>
+    </testcase>
+    <testcase name="Body matches string" time="0.209" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { …(2) } to be empty">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Get lists in a folder.]]>
+        <![CDATA[Test description: Body matches string.]]>
+        <![CDATA[Error message: expected { …(2) } to be empty.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { …(2) } to be empty
+   at Object.eval sandbox-script.js:3:80).]]>
+      </failure>
+    </testcase>
+    <testcase name="Error message is descriptive" time="0.209" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected 'authentication not found in headers' to equal 'Invalid folder id'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Get lists in a folder.]]>
+        <![CDATA[Test description: Error message is descriptive.]]>
+        <![CDATA[Error message: expected 'authentication not found in headers' to equal 'Invalid folder id'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'authentication not found in headers' to equal 'Invalid folder id'
+   at Object.eval sandbox-script.js:4:80).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response code  KEY is correct" time="0.209" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected 'unauthorized' to equal 'invalid_parameter'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Get lists in a folder.]]>
+        <![CDATA[Test description: Response code  KEY is correct.]]>
+        <![CDATA[Error message: expected 'unauthorized' to equal 'invalid_parameter'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'unauthorized' to equal 'invalid_parameter'
+   at Object.eval sandbox-script.js:5:80).]]>
+      </failure>
+    </testcase>
+    <testcase name="response code is 400 when the id is incorrect" time="0.209" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 404 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Get lists in a folder.]]>
+        <![CDATA[Test description: response code is 400 when the id is incorrect.]]>
+        <![CDATA[Error message: expected response to have status code 404 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 404 but got 401
+   at Object.eval sandbox-script.js:6:80).]]>
+      </failure>
+    </testcase>
+    <testcase name="response code name is NOT FOUND when the id is incorrect" time="0.209" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status reason 'Bad Request' but got 'Unauthorized'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Folders / Get lists in a folder.]]>
+        <![CDATA[Test description: response code name is NOT FOUND when the id is incorrect.]]>
+        <![CDATA[Error message: expected response to have status reason 'Bad Request' but got 'Unauthorized'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'Bad Request' but got 'Unauthorized'
+   at Object.eval sandbox-script.js:7:80).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Contact management / Lists / Get all the lists" id="70ffdc5c-497e-44a9-a15b-3479d7258749" timestamp="2024-05-09T23:26:39.532Z" tests="5" failures="5" errors="0" time="0.194">
+    <testcase name="Response should contain an array of lists" time="0.194" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to be an array">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Lists / Get all the lists.]]>
+        <![CDATA[Test description: Response should contain an array of lists.]]>
+        <![CDATA[Error message: expected undefined to be an array.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be an array
+   at Object.eval sandbox-script.js:1:81).]]>
+      </failure>
+    </testcase>
+    <testcase name="Each list should have the correct structure" time="0.194" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'forEach')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Lists / Get all the lists.]]>
+        <![CDATA[Test description: Each list should have the correct structure.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'forEach').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'forEach')
+   at Object.eval sandbox-script.js:2:81).]]>
+      </failure>
+    </testcase>
+    <testcase name="The count property should match the number of lists" time="0.194" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'length')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Lists / Get all the lists.]]>
+        <![CDATA[Test description: The count property should match the number of lists.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'length').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'length')
+   at Object.eval sandbox-script.js:3:81).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 200" time="0.194" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Lists / Get all the lists.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:4:81).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.194" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status reason 'OK' but got 'Unauthorized'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Lists / Get all the lists.]]>
+        <![CDATA[Test description: Status code name has string.]]>
+        <![CDATA[Error message: expected response to have status reason 'OK' but got 'Unauthorized'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'OK' but got 'Unauthorized'
+   at Object.eval sandbox-script.js:5:81).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Contact management / Lists / Create a list" id="f8f7c598-84b9-4d87-b966-ca0b13e4ac6e" timestamp="2024-05-09T23:26:39.532Z" tests="4" failures="2" errors="0" time="0.184">
+    <testcase name="Status code is 201" time="0.184" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 201 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Lists / Create a list.]]>
+        <![CDATA[Test description: Status code is 201.]]>
+        <![CDATA[Error message: expected response to have status code 201 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 201 but got 401
+   at Object.eval sandbox-script.js:2:82).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check if folderId is empty" time="0.184" classname="Sendinblue"/>
+    <testcase name="Status code name has string" time="0.184" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status reason 'Created' but got 'Unauthorized'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Lists / Create a list.]]>
+        <![CDATA[Test description: Status code name has string.]]>
+        <![CDATA[Error message: expected response to have status reason 'Created' but got 'Unauthorized'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'Created' but got 'Unauthorized'
+   at Object.eval sandbox-script.js:3:82).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check if name is empty" time="0.184" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Lists / Get contacts in a list" id="9e362e4b-148a-4e3d-9013-1ba98db105e4" timestamp="2024-05-09T23:26:39.532Z" tests="1" failures="1" errors="0" time="0.175">
+    <testcase name="Verify empty contacts array and count" time="0.175" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to be an array">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Lists / Get contacts in a list.]]>
+        <![CDATA[Test description: Verify empty contacts array and count.]]>
+        <![CDATA[Error message: expected undefined to be an array.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be an array
+   at Object.eval sandbox-script.js:1:83).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Contact management / Lists / Add existing contacts to a list" id="4bb0b02a-5cd4-441a-af0f-95de26860203" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.181"/>
+  <testsuite name="Contact management / Lists / Delete a contact from a list" id="f2ebb787-69a9-4194-9e00-bf0ad9f8f554" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.183"/>
+  <testsuite name="Contact management / Lists / Get a list's details" id="4e3b1a4f-a14d-4d75-b4a4-1de93ff3a297" timestamp="2024-05-09T23:26:39.532Z" tests="4" failures="3" errors="0" time="0.180">
+    <testcase name="Verify response structure and values" time="0.180" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { …(2) } to have keys 'id', 'name', 'startDate', 'endDate', 'totalBlacklisted', 'totalSubscribers', 'uniqueSubscribers', 'folderId', 'createdAt', 'campaignStats', and 'dynamicList'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Lists / Get a list's details.]]>
+        <![CDATA[Test description: Verify response structure and values.]]>
+        <![CDATA[Error message: expected { …(2) } to have keys 'id', 'name', 'startDate', 'endDate', 'totalBlacklisted', 'totalSubscribers', 'uniqueSubscribers', 'folderId', 'createdAt', 'campaignStats', and 'dynamicList'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { …(2) } to have keys 'id', 'name', 'startDate', 'endDate', 'totalBlacklisted', 'totalSubscribers', 'uniqueSubscribers', 'folderId', 'createdAt', 'campaignStats', and 'dynamicList'
+   at Object.eval sandbox-script.js:1:86).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify date formats" time="0.180" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to match /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}\+\d{2}:\d{2}$/">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Lists / Get a list's details.]]>
+        <![CDATA[Test description: Verify date formats.]]>
+        <![CDATA[Error message: expected undefined to match /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}\+\d{2}:\d{2}$/.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to match /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}\+\d{2}:\d{2}$/
+   at Object.eval sandbox-script.js:2:86).]]>
+      </failure>
+    </testcase>
+    <testcase name="Filter response for folderId and name, return id" time="0.180" classname="Sendinblue"/>
+    <testcase name="Status code is 200" time="0.180" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Lists / Get a list's details.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:4:86).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Contact management / Lists / Update a list" id="4dfc55d3-ecac-4052-b63e-48874c67cff2" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.173"/>
+  <testsuite name="Contact management / Lists / Delete a list" id="b79d8c26-1906-4bc4-81f0-856c49d4ad32" timestamp="2024-05-09T23:26:39.532Z" tests="6" failures="6" errors="0" time="0.181">
+    <testcase name="Status code is 204" time="0.181" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 204 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Lists / Delete a list.]]>
+        <![CDATA[Test description: Status code is 204.]]>
+        <![CDATA[Error message: expected response to have status code 204 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 204 but got 401
+   at Object.eval sandbox-script.js:1:88).]]>
+      </failure>
+    </testcase>
+    <testcase name="Body matches string" time="0.181" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { …(2) } to be empty">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Lists / Delete a list.]]>
+        <![CDATA[Test description: Body matches string.]]>
+        <![CDATA[Error message: expected { …(2) } to be empty.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { …(2) } to be empty
+   at Object.eval sandbox-script.js:2:88).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.181" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status reason 'OK' but got 'Unauthorized'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Lists / Delete a list.]]>
+        <![CDATA[Test description: Status code name has string.]]>
+        <![CDATA[Error message: expected response to have status reason 'OK' but got 'Unauthorized'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'OK' but got 'Unauthorized'
+   at Object.eval sandbox-script.js:4:88).]]>
+      </failure>
+    </testcase>
+    <testcase name="response code is 400 when the id is incorrect" time="0.181" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 400 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Lists / Delete a list.]]>
+        <![CDATA[Test description: response code is 400 when the id is incorrect.]]>
+        <![CDATA[Error message: expected response to have status code 400 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 400 but got 401
+   at Object.eval sandbox-script.js:5:88).]]>
+      </failure>
+    </testcase>
+    <testcase name="response code name is NOT FOUND when the id is incorrect" time="0.181" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status reason 'Not Found' but got 'Unauthorized'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Lists / Delete a list.]]>
+        <![CDATA[Test description: response code name is NOT FOUND when the id is incorrect.]]>
+        <![CDATA[Error message: expected response to have status reason 'Not Found' but got 'Unauthorized'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'Not Found' but got 'Unauthorized'
+   at Object.eval sandbox-script.js:6:88).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Contact management / Attributes / List all attributes" id="6fca7502-3c66-41ac-87ea-4ec9a33cd299" timestamp="2024-05-09T23:26:39.532Z" tests="2" failures="2" errors="0" time="0.185">
+    <testcase name="Verify response structure" time="0.185" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { …(2) } to have property 'attributes'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Attributes / List all attributes.]]>
+        <![CDATA[Test description: Verify response structure.]]>
+        <![CDATA[Error message: expected { …(2) } to have property 'attributes'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { …(2) } to have property 'attributes'
+   at Object.eval sandbox-script.js:1:89).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify specific attributes" time="0.185" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'find')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Contact management / Attributes / List all attributes.]]>
+        <![CDATA[Test description: Verify specific attributes.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'find').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'find')
+   at Object.eval sandbox-script.js:2:89).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Contact management / Attributes / Update contact attribute" id="3e2e1de1-d044-440d-94bf-948620772d24" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.609"/>
+  <testsuite name="Contact management / Attributes / Create contact attribute" id="fab28352-4abe-4f2f-a7c6-fb359bae1cb4" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.191"/>
+  <testsuite name="Contact management / Attributes / Delete an attribute" id="1cc8dbd3-c0b2-4b4b-8dfb-4d4c939d4a15" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.215"/>
+  <testsuite name="Transactional / Email API / Send a transactional email" id="e59537ca-2944-4c32-a54f-fd1677138489" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.456"/>
+  <testsuite name="Transactional / Email API / Get the list of transactional emails on the basis of allowed filters" id="99b0dbfb-b877-4a63-81e2-379319403933" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.171"/>
+  <testsuite name="Transactional / Email API / Delete scheduled emails by batchId or messageId" id="cf1a5316-c51d-4674-b552-b2dae4bf861f" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.173"/>
+  <testsuite name="Transactional / Email API / Get the personalized content of a sent transactional email" id="2966732d-53dc-4eea-a13b-e0a22aa7a015" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.168"/>
+  <testsuite name="Transactional / Email API / Fetch scheduled emails by batchId or messageId" id="9166a9df-ee7f-4966-8e7e-cec1d228f309" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.180"/>
+  <testsuite name="Transactional / Templates / Get the list of email templates" id="812326bc-322d-43fd-a77b-33872e6828e5" timestamp="2024-05-09T23:26:39.532Z" tests="4" failures="4" errors="0" time="0.162">
+    <testcase name="Status code is 200" time="0.162" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Templates / Get the list of email templates.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:1:98).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.162" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status reason 'OK' but got 'Unauthorized'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Templates / Get the list of email templates.]]>
+        <![CDATA[Test description: Status code name has string.]]>
+        <![CDATA[Error message: expected response to have status reason 'OK' but got 'Unauthorized'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'OK' but got 'Unauthorized'
+   at Object.eval sandbox-script.js:2:98).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Transactional / Templates / Create an email template" id="beeb9133-cbf8-4c74-84a3-b90f807ad98b" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.176"/>
+  <testsuite name="Transactional / Templates / Returns the template information" id="49edac30-38d7-4754-843f-ea0a4c8e32d8" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.188"/>
+  <testsuite name="Transactional / Templates / Update an email template" id="11334f84-5412-420a-a5e4-afeaf85ee7fc" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.186"/>
+  <testsuite name="Transactional / Templates / Delete an inactive email template" id="215414ea-9290-482e-85ef-4cb8d502940e" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.182"/>
+  <testsuite name="Transactional / Templates / Send a template to your test list" id="f5b1ec63-5404-45cf-93ed-9589ce3fa688" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.156"/>
+  <testsuite name="Transactional / Statistics / Get your transactional email activity aggregated over a period of time" id="a3182a94-7d2b-440c-98e5-6413b6315351" timestamp="2024-05-09T23:26:39.532Z" tests="6" failures="6" errors="0" time="0.163">
+    <testcase name="Response should have a 'range' property" time="0.163" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { …(2) } to have property 'range'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Statistics / Get your transactional email activity aggregated over a period of time.]]>
+        <![CDATA[Test description: Response should have a 'range' property.]]>
+        <![CDATA[Error message: expected { …(2) } to have property 'range'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { …(2) } to have property 'range'
+   at Object.eval sandbox-script.js:1:104).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response should have a 'requests' property" time="0.163" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { …(2) } to have property 'requests'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Statistics / Get your transactional email activity aggregated over a period of time.]]>
+        <![CDATA[Test description: Response should have a 'requests' property.]]>
+        <![CDATA[Error message: expected { …(2) } to have property 'requests'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { …(2) } to have property 'requests'
+   at Object.eval sandbox-script.js:2:104).]]>
+      </failure>
+    </testcase>
+    <testcase name="The 'range' property should be '2024-02-09|2024-05-09'" time="0.163" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to deeply equal '2024-02-09|2024-05-09'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Statistics / Get your transactional email activity aggregated over a period of time.]]>
+        <![CDATA[Test description: The 'range' property should be '2024-02-09|2024-05-09'.]]>
+        <![CDATA[Error message: expected undefined to deeply equal '2024-02-09|2024-05-09'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to deeply equal '2024-02-09|2024-05-09'
+   at Object.eval sandbox-script.js:3:104).]]>
+      </failure>
+    </testcase>
+    <testcase name="The 'requests' property should be 0" time="0.163" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to deeply equal +0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Statistics / Get your transactional email activity aggregated over a period of time.]]>
+        <![CDATA[Test description: The 'requests' property should be 0.]]>
+        <![CDATA[Error message: expected undefined to deeply equal +0.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to deeply equal +0
+   at Object.eval sandbox-script.js:4:104).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 200" time="0.163" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Statistics / Get your transactional email activity aggregated over a period of time.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:5:104).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.163" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status reason 'OK' but got 'Unauthorized'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Statistics / Get your transactional email activity aggregated over a period of time.]]>
+        <![CDATA[Test description: Status code name has string.]]>
+        <![CDATA[Error message: expected response to have status reason 'OK' but got 'Unauthorized'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'OK' but got 'Unauthorized'
+   at Object.eval sandbox-script.js:6:104).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Transactional / Statistics / Get your transactional email activity aggregated per day" id="b46e5d54-fb92-415b-88d9-77c5e890abbb" timestamp="2024-05-09T23:26:39.532Z" tests="3" failures="3" errors="0" time="0.182">
+    <testcase name="The 'requests' property should be 0" time="0.182" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to be an array">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Statistics / Get your transactional email activity aggregated per day.]]>
+        <![CDATA[Test description: The 'requests' property should be 0.]]>
+        <![CDATA[Error message: expected undefined to be an array.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be an array
+   at Object.eval sandbox-script.js:1:105).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.182" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status reason 'OK' but got 'Unauthorized'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Statistics / Get your transactional email activity aggregated per day.]]>
+        <![CDATA[Test description: Status code name has string.]]>
+        <![CDATA[Error message: expected response to have status reason 'OK' but got 'Unauthorized'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'OK' but got 'Unauthorized'
+   at Object.eval sandbox-script.js:2:105).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 200" time="0.182" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Statistics / Get your transactional email activity aggregated per day.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:3:105).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Transactional / Statistics / Get all your transactional email activity (unaggregated events)" id="1b7ef246-c7e4-479e-8e3e-e4938b61f7b0" timestamp="2024-05-09T23:26:39.532Z" tests="3" failures="3" errors="0" time="0.270">
+    <testcase name="The 'reponse body empty" time="0.270" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { …(2) } to be empty">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Statistics / Get all your transactional email activity (unaggregated events).]]>
+        <![CDATA[Test description: The 'reponse body empty.]]>
+        <![CDATA[Error message: expected { …(2) } to be empty.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { …(2) } to be empty
+   at Object.eval sandbox-script.js:1:106).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.270" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status reason 'OK' but got 'Unauthorized'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Statistics / Get all your transactional email activity (unaggregated events).]]>
+        <![CDATA[Test description: Status code name has string.]]>
+        <![CDATA[Error message: expected response to have status reason 'OK' but got 'Unauthorized'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'OK' but got 'Unauthorized'
+   at Object.eval sandbox-script.js:2:106).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 200" time="0.270" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Statistics / Get all your transactional email activity (unaggregated events).]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:3:106).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Transactional / Blocked Contacts / Get the list of blocked or unsubscribed transactional contacts" id="0a99b83b-015e-4047-af4f-28f267ec66ec" timestamp="2024-05-09T23:26:39.532Z" tests="4" failures="4" errors="0" time="0.171">
+    <testcase name="The contact response should be empty if no bocked contact" time="0.171" classname="Sendinblue">
+      <failure type="AssertionFailure" message=".empty was passed non-string primitive undefined">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Blocked Contacts / Get the list of blocked or unsubscribed transactional contacts.]]>
+        <![CDATA[Test description: The contact response should be empty if no bocked contact.]]>
+        <![CDATA[Error message: .empty was passed non-string primitive undefined.]]>
+        <![CDATA[Stacktrace: AssertionError: .empty was passed non-string primitive undefined
+   at Object.eval sandbox-script.js:1:107).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.171" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status reason 'OK' but got 'Unauthorized'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Blocked Contacts / Get the list of blocked or unsubscribed transactional contacts.]]>
+        <![CDATA[Test description: Status code name has string.]]>
+        <![CDATA[Error message: expected response to have status reason 'OK' but got 'Unauthorized'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'OK' but got 'Unauthorized'
+   at Object.eval sandbox-script.js:2:107).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 200" time="0.171" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Blocked Contacts / Get the list of blocked or unsubscribed transactional contacts.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:3:107).]]>
+      </failure>
+    </testcase>
+    <testcase name="The 'requests' property should be 0" time="0.171" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Blocked Contacts / Get the list of blocked or unsubscribed transactional contacts.]]>
+        <![CDATA[Test description: The 'requests' property should be 0.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:4:107).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Transactional / Blocked Contacts / Unblock or resubscribe a transactional contact" id="6c7552e8-0aba-4526-ab9c-7d1de682ab53" timestamp="2024-05-09T23:26:39.532Z" tests="4" failures="4" errors="0" time="0.168">
+    <testcase name="Error message should be descriptive for a wrong email" time="0.168" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected 'authentication not found in headers' to equal 'Email does not exist'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Blocked Contacts / Unblock or resubscribe a transactional contact.]]>
+        <![CDATA[Test description: Error message should be descriptive for a wrong email.]]>
+        <![CDATA[Error message: expected 'authentication not found in headers' to equal 'Email does not exist'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'authentication not found in headers' to equal 'Email does not exist'
+   at Object.eval sandbox-script.js:1:108).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.168" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status reason 'Not Found' but got 'Unauthorized'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Blocked Contacts / Unblock or resubscribe a transactional contact.]]>
+        <![CDATA[Test description: Status code name has string.]]>
+        <![CDATA[Error message: expected response to have status reason 'Not Found' but got 'Unauthorized'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'Not Found' but got 'Unauthorized'
+   at Object.eval sandbox-script.js:2:108).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 404" time="0.168" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 404 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Blocked Contacts / Unblock or resubscribe a transactional contact.]]>
+        <![CDATA[Test description: Status code is 404.]]>
+        <![CDATA[Error message: expected response to have status code 404 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 404 but got 401
+   at Object.eval sandbox-script.js:3:108).]]>
+      </failure>
+    </testcase>
+    <testcase name="Error mcode should be descriptive for a wrong email" time="0.168" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected 'unauthorized' to equal 'document_not_found'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Blocked Contacts / Unblock or resubscribe a transactional contact.]]>
+        <![CDATA[Test description: Error mcode should be descriptive for a wrong email.]]>
+        <![CDATA[Error message: expected 'unauthorized' to equal 'document_not_found'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'unauthorized' to equal 'document_not_found'
+   at Object.eval sandbox-script.js:4:108).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Transactional / Blocked Domains / Get the list of blocked domains" id="5ecbdcff-f6ab-4842-b081-a828c7fb4b94" timestamp="2024-05-09T23:26:39.532Z" tests="3" failures="3" errors="0" time="0.181">
+    <testcase name="The contact response should be empty if no bocked contact" time="0.181" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to be an array">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Blocked Domains / Get the list of blocked domains.]]>
+        <![CDATA[Test description: The contact response should be empty if no bocked contact.]]>
+        <![CDATA[Error message: expected undefined to be an array.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be an array
+   at Object.eval sandbox-script.js:1:109).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.181" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status reason 'OK' but got 'Unauthorized'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Blocked Domains / Get the list of blocked domains.]]>
+        <![CDATA[Test description: Status code name has string.]]>
+        <![CDATA[Error message: expected response to have status reason 'OK' but got 'Unauthorized'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'OK' but got 'Unauthorized'
+   at Object.eval sandbox-script.js:2:109).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 200" time="0.181" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Blocked Domains / Get the list of blocked domains.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:3:109).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Transactional / Blocked Domains / Add a new domain to the list of blocked domains" id="b95daff0-dbdf-4c00-bc42-774ac90ba6bc" timestamp="2024-05-09T23:26:39.532Z" tests="3" failures="3" errors="0" time="0.161">
+    <testcase name="The contact response should be empty if no bocked contact" time="0.161" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { …(2) } to be empty">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Blocked Domains / Add a new domain to the list of blocked domains.]]>
+        <![CDATA[Test description: The contact response should be empty if no bocked contact.]]>
+        <![CDATA[Error message: expected { …(2) } to be empty.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { …(2) } to be empty
+   at Object.eval sandbox-script.js:1:110).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Transactional / Blocked Domains / Unblock an existing domain from the list of blocked domains" id="de6696e6-20f8-4ab2-8da6-76eeefb31827" timestamp="2024-05-09T23:26:39.532Z" tests="5" failures="5" errors="0" time="0.195">
+    <testcase name="The contact response should be empty for a succesfully unblocked contact" time="0.195" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { …(2) } to be empty">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Blocked Domains / Unblock an existing domain from the list of blocked domains.]]>
+        <![CDATA[Test description: The contact response should be empty for a succesfully unblocked contact.]]>
+        <![CDATA[Error message: expected { …(2) } to be empty.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { …(2) } to be empty
+   at Object.eval sandbox-script.js:1:111).]]>
+      </failure>
+    </testcase>
+    <testcase name="Descriptive error message from unblocking a domain that is not blocked" time="0.195" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected 'authentication not found in headers' to equal 'Domain does not exist in the list of …'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Blocked Domains / Unblock an existing domain from the list of blocked domains.]]>
+        <![CDATA[Test description: Descriptive error message from unblocking a domain that is not blocked.]]>
+        <![CDATA[Error message: expected 'authentication not found in headers' to equal 'Domain does not exist in the list of …'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'authentication not found in headers' to equal 'Domain does not exist in the list of …'
+   at Object.eval sandbox-script.js:2:111).]]>
+      </failure>
+    </testcase>
+    <testcase name="Descriptive error code from unblocking a domain that is not blocked" time="0.195" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected 'unauthorized' to equal 'document_not_found'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Blocked Domains / Unblock an existing domain from the list of blocked domains.]]>
+        <![CDATA[Test description: Descriptive error code from unblocking a domain that is not blocked.]]>
+        <![CDATA[Error message: expected 'unauthorized' to equal 'document_not_found'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'unauthorized' to equal 'document_not_found'
+   at Object.eval sandbox-script.js:3:111).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 204" time="0.195" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 204 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Blocked Domains / Unblock an existing domain from the list of blocked domains.]]>
+        <![CDATA[Test description: Status code is 204.]]>
+        <![CDATA[Error message: expected response to have status code 204 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 204 but got 401
+   at Object.eval sandbox-script.js:4:111).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.195" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status reason 'NO Content' but got 'Unauthorized'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Blocked Domains / Unblock an existing domain from the list of blocked domains.]]>
+        <![CDATA[Test description: Status code name has string.]]>
+        <![CDATA[Error message: expected response to have status reason 'NO Content' but got 'Unauthorized'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'NO Content' but got 'Unauthorized'
+   at Object.eval sandbox-script.js:5:111).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Transactional / Logs / Delete hardbounces" id="9255e4bf-3991-4a94-b24b-e0f2bd2a7267" timestamp="2024-05-09T23:26:39.532Z" tests="4" failures="4" errors="0" time="0.206">
+    <testcase name="Descriptive error message from unblocking a domain that is not blocked" time="0.206" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected 'authentication not found in headers' to equal 'Start date is not valid. It should be…'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Logs / Delete hardbounces.]]>
+        <![CDATA[Test description: Descriptive error message from unblocking a domain that is not blocked.]]>
+        <![CDATA[Error message: expected 'authentication not found in headers' to equal 'Start date is not valid. It should be…'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'authentication not found in headers' to equal 'Start date is not valid. It should be…'
+   at Object.eval sandbox-script.js:1:112).]]>
+      </failure>
+    </testcase>
+    <testcase name="Descriptive error code from unblocking a domain that is not blocked" time="0.206" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected 'unauthorized' to equal 'invalid_parameter'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Logs / Delete hardbounces.]]>
+        <![CDATA[Test description: Descriptive error code from unblocking a domain that is not blocked.]]>
+        <![CDATA[Error message: expected 'unauthorized' to equal 'invalid_parameter'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'unauthorized' to equal 'invalid_parameter'
+   at Object.eval sandbox-script.js:2:112).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 404" time="0.206" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 404 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Logs / Delete hardbounces.]]>
+        <![CDATA[Test description: Status code is 404.]]>
+        <![CDATA[Error message: expected response to have status code 404 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 404 but got 401
+   at Object.eval sandbox-script.js:3:112).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.206" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status reason 'Bad request' but got 'Unauthorized'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Logs / Delete hardbounces.]]>
+        <![CDATA[Test description: Status code name has string.]]>
+        <![CDATA[Error message: expected response to have status reason 'Bad request' but got 'Unauthorized'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'Bad request' but got 'Unauthorized'
+   at Object.eval sandbox-script.js:4:112).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Transactional / Logs / Delete an SMTP transactional log" id="03a5a069-3ba0-426b-a600-8590d8cca176" timestamp="2024-05-09T23:26:39.532Z" tests="4" failures="4" errors="0" time="0.174">
+    <testcase name="Descriptive error message from unblocking a domain that is not blocked" time="0.174" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected 'authentication not found in headers' to equal 'Invalid message id OR email id'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Logs / Delete an SMTP transactional log.]]>
+        <![CDATA[Test description: Descriptive error message from unblocking a domain that is not blocked.]]>
+        <![CDATA[Error message: expected 'authentication not found in headers' to equal 'Invalid message id OR email id'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'authentication not found in headers' to equal 'Invalid message id OR email id'
+   at Object.eval sandbox-script.js:1:113).]]>
+      </failure>
+    </testcase>
+    <testcase name="Descriptive error code from unblocking a domain that is not blocked" time="0.174" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected 'unauthorized' to equal 'INVALID_PARAMETER'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Logs / Delete an SMTP transactional log.]]>
+        <![CDATA[Test description: Descriptive error code from unblocking a domain that is not blocked.]]>
+        <![CDATA[Error message: expected 'unauthorized' to equal 'INVALID_PARAMETER'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'unauthorized' to equal 'INVALID_PARAMETER'
+   at Object.eval sandbox-script.js:2:113).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 400" time="0.174" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 400 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Logs / Delete an SMTP transactional log.]]>
+        <![CDATA[Test description: Status code is 400.]]>
+        <![CDATA[Error message: expected response to have status code 400 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 400 but got 401
+   at Object.eval sandbox-script.js:3:113).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.174" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status reason 'Bad Request' but got 'Unauthorized'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Logs / Delete an SMTP transactional log.]]>
+        <![CDATA[Test description: Status code name has string.]]>
+        <![CDATA[Error message: expected response to have status reason 'Bad Request' but got 'Unauthorized'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'Bad Request' but got 'Unauthorized'
+   at Object.eval sandbox-script.js:4:113).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Transactional / Inbound Email Parsing / Get the list of all the events for the received emails." id="2f7ddc80-a025-424b-bd52-0a6948ea66d2" timestamp="2024-05-09T23:26:39.532Z" tests="5" failures="5" errors="0" time="0.178">
+    <testcase name="Response body has property events" time="0.178" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { …(2) } to have property 'events'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Inbound Email Parsing / Get the list of all the events for the received emails..]]>
+        <![CDATA[Test description: Response body has property events.]]>
+        <![CDATA[Error message: expected { …(2) } to have property 'events'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { …(2) } to have property 'events'
+   at Object.eval sandbox-script.js:1:114).]]>
+      </failure>
+    </testcase>
+    <testcase name="Events is an array" time="0.178" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to be an array">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Inbound Email Parsing / Get the list of all the events for the received emails..]]>
+        <![CDATA[Test description: Events is an array.]]>
+        <![CDATA[Error message: expected undefined to be an array.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be an array
+   at Object.eval sandbox-script.js:2:114).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.178" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status reason 'OK' but got 'Unauthorized'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Inbound Email Parsing / Get the list of all the events for the received emails..]]>
+        <![CDATA[Test description: Status code name has string.]]>
+        <![CDATA[Error message: expected response to have status reason 'OK' but got 'Unauthorized'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'OK' but got 'Unauthorized'
+   at Object.eval sandbox-script.js:3:114).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 200" time="0.178" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Inbound Email Parsing / Get the list of all the events for the received emails..]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:4:114).]]>
+      </failure>
+    </testcase>
+    <testcase name="Event is empty" time="0.178" classname="Sendinblue">
+      <failure type="AssertionFailure" message=".empty was passed non-string primitive undefined">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / Inbound Email Parsing / Get the list of all the events for the received emails..]]>
+        <![CDATA[Test description: Event is empty.]]>
+        <![CDATA[Error message: .empty was passed non-string primitive undefined.]]>
+        <![CDATA[Stacktrace: AssertionError: .empty was passed non-string primitive undefined
+   at Object.eval sandbox-script.js:5:114).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Transactional / Inbound Email Parsing / Fetch all events history for one particular received email." id="e0873c6b-0ad9-4084-a54f-200a5aa185e2" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.183"/>
+  <testsuite name="Transactional / Inbound Email Parsing / Retrieve inbound attachment with download token." id="e910d774-f4fd-44ea-8ab9-784769b145b9" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.196"/>
+  <testsuite name="Transactional / Transactional SMS / Send SMS message to a mobile number" id="ab6835a7-8ded-4a3f-b761-f9ff1c6f157c" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.193"/>
+  <testsuite name="Transactional / SMS statistics / Get your SMS activity aggregated over a period of time" id="21c0bd29-d8d8-4b79-b3e6-f4e2c621d30a" timestamp="2024-05-09T23:26:39.532Z" tests="1" failures="1" errors="0" time="0.182">
+    <testcase name="The contact response should be empty if no bocked contact" time="0.182" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { …(2) } to be empty">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / SMS statistics / Get your SMS activity aggregated over a period of time.]]>
+        <![CDATA[Test description: The contact response should be empty if no bocked contact.]]>
+        <![CDATA[Error message: expected { …(2) } to be empty.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { …(2) } to be empty
+   at Object.eval sandbox-script.js:1:118).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Transactional / SMS statistics / Get your SMS activity aggregated per day" id="842b59cd-00aa-4033-b8ba-4060429238dc" timestamp="2024-05-09T23:26:39.532Z" tests="3" failures="3" errors="0" time="0.219">
+    <testcase name="The SMS activity response body should be empty if no sms activity" time="0.219" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { …(2) } to be empty">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / SMS statistics / Get your SMS activity aggregated per day.]]>
+        <![CDATA[Test description: The SMS activity response body should be empty if no sms activity.]]>
+        <![CDATA[Error message: expected { …(2) } to be empty.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { …(2) } to be empty
+   at Object.eval sandbox-script.js:1:119).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 200" time="0.219" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / SMS statistics / Get your SMS activity aggregated per day.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:2:119).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.219" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status reason 'OK' but got 'Unauthorized'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / SMS statistics / Get your SMS activity aggregated per day.]]>
+        <![CDATA[Test description: Status code name has string.]]>
+        <![CDATA[Error message: expected response to have status reason 'OK' but got 'Unauthorized'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'OK' but got 'Unauthorized'
+   at Object.eval sandbox-script.js:3:119).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Transactional / SMS statistics / Get all your SMS activity (unaggregated events)" id="2ca98427-db68-49eb-a27f-6e218c59fae2" timestamp="2024-05-09T23:26:39.532Z" tests="3" failures="3" errors="0" time="0.190">
+    <testcase name="The SMS activity response body should be empty if no sms activity" time="0.190" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { …(2) } to be empty">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / SMS statistics / Get all your SMS activity (unaggregated events).]]>
+        <![CDATA[Test description: The SMS activity response body should be empty if no sms activity.]]>
+        <![CDATA[Error message: expected { …(2) } to be empty.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { …(2) } to be empty
+   at Object.eval sandbox-script.js:1:120).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 200" time="0.190" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 401">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / SMS statistics / Get all your SMS activity (unaggregated events).]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 401.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 401
+   at Object.eval sandbox-script.js:2:120).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has string" time="0.190" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected response to have status reason 'OK' but got 'Unauthorized'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Transactional / SMS statistics / Get all your SMS activity (unaggregated events).]]>
+        <![CDATA[Test description: Status code name has string.]]>
+        <![CDATA[Error message: expected response to have status reason 'OK' but got 'Unauthorized'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'OK' but got 'Unauthorized'
+   at Object.eval sandbox-script.js:3:120).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Account / Webhooks / Get all webhooks" id="58d29020-79ce-42c0-b2ab-cf75ceacddba" timestamp="2024-05-09T23:26:39.532Z" tests="6" failures="6" errors="0" time="0.170">
+    <testcase name="Response should have a 'webhooks' property" time="0.170" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected { …(2) } to have property 'webhooks'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Account / Webhooks / Get all webhooks.]]>
+        <![CDATA[Test description: Response should have a 'webhooks' property.]]>
+        <![CDATA[Error message: expected { …(2) } to have property 'webhooks'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { …(2) } to have property 'webhooks'
+   at Object.eval sandbox-script.js:1:121).]]>
+      </failure>
+    </testcase>
+    <testcase name="The 'webhooks' property should be an array" time="0.170" classname="Sendinblue">
+      <failure type="AssertionFailure" message="expected undefined to be an array">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Account / Webhooks / Get all webhooks.]]>
+        <![CDATA[Test description: The 'webhooks' property should be an array.]]>
+        <![CDATA[Error message: expected undefined to be an array.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be an array
+   at Object.eval sandbox-script.js:2:121).]]>
+      </failure>
+    </testcase>
+    <testcase name="The first webhook should have a 'url' property" time="0.170" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading '0')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Account / Webhooks / Get all webhooks.]]>
+        <![CDATA[Test description: The first webhook should have a 'url' property.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading '0').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading '0')
+   at Object.eval sandbox-script.js:3:121).]]>
+      </failure>
+    </testcase>
+    <testcase name="The first webhook should have a 'events' property" time="0.170" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading '3')">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Account / Webhooks / Get all webhooks.]]>
+        <![CDATA[Test description: The first webhook should have a 'events' property.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading '3').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading '3')
+   at Object.eval sandbox-script.js:4:121).]]>
+      </failure>
+    </testcase>
+    <testcase name="The first webhook should have a 'createdAt' property" time="0.170" classname="Sendinblue">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading '5')">
+        <![CDATA[Failed 2 times.]]>
+        <![CDATA[Collection JSON ID: 47804fdb-8166-4755-8794-00e2706ebfb3.]]>
+        <![CDATA[Collection name: Sendinblue.]]>
+        <![CDATA[Request name: Account / Webhooks / Get all webhooks.]]>
+        <![CDATA[Test description: The first webhook should have a 'createdAt' property.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading '5').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading '5')
+   at Object.eval sandbox-script.js:5:121).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Account / Webhooks / Create a webhook" id="39125707-300c-4969-9199-7a8b4521bfa7" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.210"/>
+  <testsuite name="Account / Webhooks / Get a webhook details" id="6942a842-4a69-4ed2-891f-f63c87746752" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.154"/>
+  <testsuite name="Account / Webhooks / Update a webhook" id="b682bed9-2a36-4727-bea1-76d49f521ed8" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.183"/>
+  <testsuite name="Account / Webhooks / Delete a webhook" id="7f130fb0-30d7-424f-9761-5eae51bbf270" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.176"/>
+  <testsuite name="Account / Reseller / Credits / Add Email and/or SMS credits to a specific child account" id="948d3b7f-2fe3-4c6f-b25a-d865e837b130" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.192"/>
+  <testsuite name="Account / Reseller / Credits / Remove Email and/or SMS credits from a specific child account" id="6a9338fe-22ce-4513-bd4e-817f2fa035f3" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.171"/>
+  <testsuite name="Account / Reseller / IP management / Associate a dedicated IP to the child" id="24f331a1-ef2b-48bc-aadb-127f9b369957" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.207"/>
+  <testsuite name="Account / Reseller / IP management / Dissociate a dedicated IP to the child" id="f72393a8-376e-4b50-85e3-11c5ab6be48e" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.175"/>
+  <testsuite name="Account / Reseller / Domains / Get all sender domains for a specific child account" id="383cd2e3-b581-4f36-a0af-00a2080e95a3" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.195"/>
+  <testsuite name="Account / Reseller / Domains / Create a domain for a child account" id="603863be-8e6c-4de2-961d-95952bc2f2ba" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.176"/>
+  <testsuite name="Account / Reseller / Domains / Update the sender domain of reseller's child based on the childIdentifier and domainName passed" id="6b2792be-081d-4786-bb6e-3ec7608bdaf3" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.189"/>
+  <testsuite name="Account / Reseller / Domains / Delete the sender domain of the reseller child based on the childIdentifier and domainName passed" id="c1502bdb-3b67-4440-92ff-fddd96b7a69e" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.171"/>
+  <testsuite name="Account / Reseller / Child accounts / Get a child account's details" id="538d2023-c655-46f5-a156-1177f6de639c" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.425"/>
+  <testsuite name="Account / Reseller / Child accounts / Update info of reseller's child based on the child identifier supplied" id="56751287-976d-4f37-9450-48fd95108946" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.181"/>
+  <testsuite name="Account / Reseller / Child accounts / Delete a single reseller child based on the child identifier supplied" id="a6c53596-0dac-4931-8001-c37a05de2ab6" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.177"/>
+  <testsuite name="Account / Reseller / Child accounts / Update info of reseller's child account status based on the identifier supplied" id="518d7db7-8626-422a-a043-fdd892525990" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.170"/>
+  <testsuite name="Account / Reseller / Child accounts / Get the status of a reseller's child account creation, whether it is successfully created (exists) or not based on the childIdentifier supplied" id="2ce27b98-2a49-4668-8924-260c3a8123b5" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.160"/>
+  <testsuite name="Account / Reseller / Child accounts / Get session token to access Sendinblue (SSO)" id="e702dcf4-8217-47b8-a140-998523a14c7f" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.392"/>
+  <testsuite name="Account / Reseller / Child accounts / Get the list of all children accounts" id="6dc8bde5-3eda-46db-bf9c-8d2c14a53b22" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.173"/>
+  <testsuite name="Account / Reseller / Child accounts / Creates a reseller child" id="b30b528f-4f5f-49bb-8930-66ab9aed338b" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.183"/>
+  <testsuite name="Account / Process / Return all the processes for your account" id="d4b3c5bb-a692-4c38-b9d7-f3fb41554242" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.166"/>
+  <testsuite name="Account / Process / Return the informations for a process" id="25460d67-fd8b-47fd-97fb-cf9a6a932479" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.170"/>
+  <testsuite name="Account / Corporate / Get the details of requested master account" id="6070a230-fc0d-4704-b733-7dc2a293e802" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.178"/>
+  <testsuite name="Account / Corporate / Get the list of all the sub-accounts of the master account." id="18ad061b-0711-4fff-bbfb-a3e9f15c3225" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.198"/>
+  <testsuite name="Account / Corporate / Create a new sub-account under a master account." id="b0060129-c191-4d35-9458-584a8835580b" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.177"/>
+  <testsuite name="Account / Corporate / Generate SSO token to access Sendinblue" id="a7b8a4fc-a43f-4d8d-a916-6662b7e186f1" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.175"/>
+  <testsuite name="Account / Corporate / Get sub-account details" id="d7d331b4-bdc0-42bd-8eeb-25592cb69e66" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.198"/>
+  <testsuite name="Account / Corporate / Delete a sub-account" id="c664ae0d-990a-4566-ae88-141fefbec2bf" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.169"/>
+  <testsuite name="Account / Corporate / Update sub-account plan" id="c76874c7-b0b7-4718-8315-ae8a1aa91de6" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.519"/>
+  <testsuite name="Account / Account data / Get your account information, plan and credits details" id="dc8c10fe-063b-4ec1-ad06-04d05572a65e" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.178"/>
+  <testsuite name="Account / Senders / Get the list of all your senders" id="b90b7baa-9924-42f9-bc16-4bf4a07acde9" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.164"/>
+  <testsuite name="Account / Senders / Create a new sender" id="62174469-e242-4da8-9a07-3b5cb3a02e3c" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.203"/>
+  <testsuite name="Account / Senders / Get all the dedicated IPs for your account" id="793c6ec4-f578-4a0a-b339-26cf2f798f1e" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.185"/>
+  <testsuite name="Account / Senders / Update a sender" id="ecebe9ee-bb66-41ae-902c-a116d39f04cf" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.176"/>
+  <testsuite name="Account / Senders / Delete a sender" id="86cdde4c-f19f-4ec5-8936-7e0fb5ba0817" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.185"/>
+  <testsuite name="Account / Senders / Get all the dedicated IPs for a sender" id="fc3cd512-019a-4eaa-a417-5b594ee327e7" timestamp="2024-05-09T23:26:39.532Z" tests="0" failures="0" errors="0" time="0.186"/>
+</testsuites>

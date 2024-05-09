@@ -1,0 +1,22 @@
+{
+  "linkContactIds": [
+    1,
+    2,
+    3
+  ],
+  "unlinkContactIds": [
+    4,
+    5,
+    6
+  ],
+  "linkDealsIds": [
+    "663522d2d0981165e82858ea",
+    "663376dca8bbd01d31422ba4",
+    "61a5ce58c5d4795761045992"
+  ],
+  "unlinkDealsIds": [
+    "61a5ce58c5d4795761045994",
+    "61a5ce58c5d479576104595",
+    "61a5ce58c5d4795761045996"
+  ]
+}
