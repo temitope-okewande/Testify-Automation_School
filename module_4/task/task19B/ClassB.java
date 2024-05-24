@@ -1,4 +1,4 @@
-package task19B;
+package task.task19B;
 
 public class ClassB {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package task17a;
+package task.task17a;
 
 public abstract class LoginPage {
     public abstract void username();

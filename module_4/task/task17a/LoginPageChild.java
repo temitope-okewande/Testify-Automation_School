@@ -1,4 +1,4 @@
-package task17a;
+package task.task17a;
 
 public class LoginPageChild extends LoginPage {
     public static void main(String[] args) {

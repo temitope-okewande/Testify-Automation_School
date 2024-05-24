@@ -1,4 +1,4 @@
-package task16b;
+package task.task16b;
 
 public class Parent {
     public  void house_type(String type) {

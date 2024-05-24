@@ -1,4 +1,4 @@
-package task19C;
+package task.task19C;
 
 public class ClassB extends ClassA {
     String name = "Tiaraoluwa";
