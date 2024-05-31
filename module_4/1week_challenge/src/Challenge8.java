@@ -16,19 +16,15 @@ public class Challenge8 {
 
     }
     public static int[] countingSort(int[] array, int min, int max) {
-        // Create a count array to store the frequency of each integer
         int[] count = new int[max - min + 1];
 
-        // Count the occurrences of each integer in the input array
         for (int num : array) {
             count[num - min]++;
         }
 
-        // Create the sorted array
         int[] sortedArray = new int[array.length];
         int sortedIndex = 0;
 
-        // Fill the sorted array using the count array
         for (int i = 0; i < count.length; i++) {
             while (count[i] > 0) {
                 sortedArray[sortedIndex++] = i + min;
