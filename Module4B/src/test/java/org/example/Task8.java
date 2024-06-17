@@ -10,9 +10,15 @@ public class Task8 {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://idorenyinankoh.github.io/loginPage/ ");
+        Thread.sleep(2000);
 
-        //About you field
-        boolean beforeCreateAccount= driver.findElement(By.xpath("//button[@id='create']")).isEnabled();
+
+
+
+
+
+        driver.findElement(By.xpath("//*[@id=\"create\"]")).click();
+        boolean beforeCreateAccount= driver.findElement(By.xpath("//*[@id=\"create\"]")).isEnabled();
         System.out.println(beforeCreateAccount);
 
 
@@ -44,25 +50,6 @@ public class Task8 {
         driver.findElement(By.name("xpLevel")).sendKeys("I am great,I am a QA engineer.");
         driver.findElement(By.name("xpLevel")).click();
         Thread.sleep(5000);
-        //First name field
-        driver.findElement(By.name("firstName")).sendKeys("Temitope");
-        Thread.sleep(3000);
-
-        //Lastname field
-        driver.findElement(By.id("lastName")).sendKeys("Okewande");
-        Thread.sleep(3000);
-
-        //Email field
-        driver.findElement(By.xpath("//input[@type='email']")).sendKeys("Topehnics@gmail.com");
-        Thread.sleep(3000);
-
-        //Gender field
-        driver.findElement(By.cssSelector("#female")).click();
-        Thread.sleep(3000);
-
-        //password field
-        driver.findElement(By.xpath("//input[@id='password']")).sendKeys("@Test123");
-        Thread.sleep(3000);
 
         //Confirm password field
         driver.findElement(By.cssSelector("#confirmPass")).sendKeys("@Test123");
