@@ -1,0 +1,15 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Testify Test Suite">
+    <test name="Task 17">
+        <classes>
+            <class name="org.example.task19WebOne.ClassA"/>
+            <class name="org.example.task19WebOne.ClassB"/>
+            <class name="org.example.task19WebOne.ClassC"/>
+            <class name="org.example.task19WebTwo.ClassA"/>
+            <class name="org.example.task19WebTwo.ClassB"/>
+            <class name="org.example.task19WebTwo.ClassC"/>
+
+        </classes>
+    </test>
+</suite>

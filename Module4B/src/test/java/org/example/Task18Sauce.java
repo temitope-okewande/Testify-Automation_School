@@ -19,10 +19,13 @@ public class Task18Sauce {
 
         obj.getPassword().sendKeys("secret_sauce");
         Thread.sleep(3000);
+
         obj.getLogin().click();
         Thread.sleep(3000);
+
         obj.getCart().click();
         Thread.sleep(3000);
+
         String title = obj.getCartTitle().getText();
 
         Thread.sleep(3000);
@@ -34,10 +37,19 @@ public class Task18Sauce {
         System.out.println("Title" + title);
 
         obj.getCheckout().click();
+        Thread.sleep(3000);
+
         obj.getFirstname().sendKeys("Temitope ");
+        Thread.sleep(3000);
+
         obj.getLastname().sendKeys("Okewande");
+        Thread.sleep(3000);
+
         obj.getPostalCode().sendKeys("12345");
+        Thread.sleep(3000);
+
         obj.getcontinueCart().click();
+        Thread.sleep(3000);
 
         Assert.assertEquals(title, "Sauce Labs Backpack");
         System.out.println("Title" + title);
@@ -51,6 +63,9 @@ public class Task18Sauce {
         System.out.println("Thanks " + thanks);
         Assert.assertEquals(thanks, "Thank you for your order!");
         Thread.sleep(3000);
+
+
+        driver.quit();
 
 
 
